@@ -8,7 +8,7 @@ This tutorial shows how to add resources to an `EntityDescription`.
 - [Step 2: Add resources](#step-2-add-resources)
 
 ### Step 1: Open or create an entity description
-Open or recreate the ["Demo" source description](Write-an-Entity-Description) so you have something to work with.
+Open or recreate the ["Demo" source description](Write-an-Entity-Description.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.persistent.descriptions.SourceDescription

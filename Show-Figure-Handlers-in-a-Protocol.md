@@ -9,7 +9,7 @@ This tutorial shows how to show `FigureHandlers` in a protocol.
 - [Step 3: Show figure handlers](#step-3-show-figure-handlers)
 
 ### Step 1: Open or create a protocol
-Open or recreate the ["Demo" protocol](Write-a-Protocol) so you have something to work with.
+Open or recreate the ["Demo" protocol](Write-a-Protocol.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.Protocol

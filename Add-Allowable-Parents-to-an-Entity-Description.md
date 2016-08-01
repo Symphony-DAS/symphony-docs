@@ -8,7 +8,7 @@ This tutorial shows how to add allowable parents to an `EntityDescription`.
 - [Step 2: Add allowable parents](#step-2-add-allowable-parents)
 
 ### Step 1: Create two source descriptions
-[Create two source descriptions](Write-an-Entity-Description) called "Subject" and "Cell" so you have something to work with.
+[Create two source descriptions](Write-an-Entity-Description.md) called "Subject" and "Cell" so you have something to work with.
 
 ```matlab
 classdef Subject < symphonyui.core.persistent.descriptions.SourceDescription

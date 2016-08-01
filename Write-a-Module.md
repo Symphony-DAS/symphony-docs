@@ -9,7 +9,7 @@ This tutorial shows how to write a `Module`.
 ### Step 1: Create a class
 A `Module` is simply a MATLAB class that [subclasses](http://www.mathworks.com/help/matlab/matlab_oop/creating-subclasses--syntax-and-techniques.html) from `symphonyui.ui.Module`.
 
-Create a new class in your personal Symphony [package](Create-a-Package) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+modules" directory, and selecting **New File > Class**.
+Create a new class in your personal Symphony [package](Create-a-Package.md) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+modules" directory, and selecting **New File > Class**.
 
 ![new class](images/write-a-module/new-class.png)
 

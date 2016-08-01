@@ -10,7 +10,7 @@ This tutorial shows how to explicitly define the type of a property's `PropertyD
 - [Step 2: Add type properties](#step-2-add-type-properties)
 
 ### Step 1: Open or create a protocol
-Open or recreate the ["Demo" protocol](Write-a-Protocol) so you have something to work with.
+Open or recreate the ["Demo" protocol](Write-a-Protocol.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.Protocol

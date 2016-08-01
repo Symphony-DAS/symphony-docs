@@ -8,7 +8,7 @@ This tutorial shows how to add configuration settings to a device within a `RigD
 - [Step 2: Add configuration settings](#step-2-add-configuration-settings)
 
 ### Step 1: Open or create a rig description
-Open or recreate the ["Demo" description](Write-a-Rig-Description) so you have something to work with.
+Open or recreate the ["Demo" description](Write-a-Rig-Description.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.descriptions.RigDescription

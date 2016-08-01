@@ -8,7 +8,7 @@ This tutorial shows how to add resources to a device within a `RigDescription`.
 - [Step 2: Add resources](#step-2-add-resources)
 
 ### Step 1: Open or create a rig description
-Open or recreate the ["Demo" description](Write-a-Rig-Description) so you have something to work with.
+Open or recreate the ["Demo" description](Write-a-Rig-Description.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.descriptions.RigDescription

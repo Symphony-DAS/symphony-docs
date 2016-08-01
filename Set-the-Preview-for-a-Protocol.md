@@ -9,7 +9,7 @@ This tutorial shows how to set the preview for a `Protocol`.
 - [Step 3: Refactor stimulus generation](#step-3-refactor-stimulus-generation)
 
 ### Step 1: Open or create a protocol
-Open or recreate the ["Demo" protocol](Write-a-Protocol) so you have something to work with.
+Open or recreate the ["Demo" protocol](Write-a-Protocol.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.Protocol

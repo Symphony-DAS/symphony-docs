@@ -8,7 +8,7 @@ This tutorial shows how to write an `EntityDescription`.
 ### Step 1: Create a class
 An `EntityDescription` is simply a MATLAB class that [subclasses](http://www.mathworks.com/help/matlab/matlab_oop/creating-subclasses--syntax-and-techniques.html) from `symphonyui.core.persistent.descriptions.ExperimentDescription`, `symphonyui.core.persistent.descriptions.SourceDescription`, or `symphonyui.core.persistent.descriptions.EpochGroupDescription`.
 
-Create a new class in your personal Symphony [package](Create-a-Package) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+sources" directory, and selecting **New File > Class**.
+Create a new class in your personal Symphony [package](Create-a-Package.md) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+sources" directory, and selecting **New File > Class**.
 
 ![new class](images/write-an-entity-description/new-class.png)
 

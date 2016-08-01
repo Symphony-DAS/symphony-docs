@@ -6,7 +6,7 @@ This tutorial shows how to use `PropertyDescriptors` within a description.
 - [Step 2: Constrain property values](#step-2-constrain-property-values)
 
 ### Step 1: Open or create an entity description
-Open or recreate the ["Demo" source description](Write-an-Entity-Description) so you have something to work with.
+Open or recreate the ["Demo" source description](Write-an-Entity-Description.md) so you have something to work with.
 
 ```matlab
 classdef Demo < symphonyui.core.persistent.descriptions.SourceDescription

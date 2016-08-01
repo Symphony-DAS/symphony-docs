@@ -11,7 +11,7 @@ This tutorial shows how to write a `FigureHandler`.
 ### Step 1: Create a class
 A `FigureHandler` is simply a MATLAB class that [subclasses](http://www.mathworks.com/help/matlab/matlab_oop/creating-subclasses--syntax-and-techniques.html) from `symphonyui.core.FigureHandler`.
 
-Create a new class in your personal Symphony [package](Create-a-Package) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+figures" directory, and selecting **New File > Class**.
+Create a new class in your personal Symphony [package](Create-a-Package.md) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+figures" directory, and selecting **New File > Class**.
 
 ![new class](images/write-a-figure-handler/new-class.png)
 
@@ -200,7 +200,7 @@ classdef Demo < symphonyui.core.FigureHandler
 end
 ```
 
-[Show it in a protocol](Show-Figure-Handlers-in-a-Protocol).
+[Show it in a protocol](Show-Figure-Handlers-in-a-Protocol.md).
 
 ```matlab
 obj.showFigure('edu.washington.riekelab.figures.Demo', obj.rig.getDevice(obj.amp));

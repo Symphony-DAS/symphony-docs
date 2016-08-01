@@ -11,7 +11,7 @@ This tutorial shows how to write a `Protocol`.
 ### Step 1: Create a class
 A `Protocol` is simply a MATLAB class that [subclasses](http://www.mathworks.com/help/matlab/matlab_oop/creating-subclasses--syntax-and-techniques.html) from `symphonyui.core.Protocol`.
 
-Create a new class in your personal Symphony [package](Create-a-Package) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+protocols" directory, and selecting **New File > Class**.
+Create a new class in your personal Symphony [package](Create-a-Package.md) by navigating to the package in MATLAB's **Current Folder**, right-clicking on the "+protocols" directory, and selecting **New File > Class**.
 
 ![new class](images/write-a-protocol/new-class.png)
 
@@ -142,7 +142,7 @@ function prepareEpoch(obj, epoch)
 end
 ```
 
-Add a pulse stimulus to the amplifier in each epoch by using a [`PulseGenerator`](Standard-Stimulus-Generators) and calling the `addStimulus()` method on the epoch passed to `prepareEpoch()`.
+Add a pulse stimulus to the amplifier in each epoch by using a [`PulseGenerator`](Standard-Stimulus-Generators.md) and calling the `addStimulus()` method on the epoch passed to `prepareEpoch()`.
 
 ```matlab
 function prepareEpoch(obj, epoch)
@@ -268,6 +268,6 @@ classdef Demo < symphonyui.core.Protocol
 end
 ```
 
-If your personal package is in the Symphony path you should now be able to run the "Demo" protocol from the main window (it will not show any figures while running, however, until you [show figure handlers](Show-Figure-Handlers-in-a-Protocol)).
+If your personal package is in the Symphony path you should now be able to run the "Demo" protocol from the main window (it will not show any figures while running, however, until you [show figure handlers](Show-Figure-Handlers-in-a-Protocol.md)).
 
 ![run](images/write-a-protocol/run.png)
