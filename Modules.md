@@ -8,7 +8,7 @@ A `Module` is a small, standalone, user interface that allows you to extend Symp
 
 ## Tutorials
 <ul class="list-unstyled">
-<li><a href="Write-a-Module">Write a Module</a></li>
+<li><a href="Write-a-Module.md">Write a Module</a></li>
 </ul>
 
 ## Examples

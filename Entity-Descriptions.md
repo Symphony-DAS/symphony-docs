@@ -8,9 +8,9 @@ An `EntityDescription` describes the metadata of an entity within an experiment.
 
 ## Tutorials
 <ul class="list-unstyled">
-<li><a href="Write-an-Entity-Description">Write an Entity Description</a></li>
-<li><a href="Add-Allowable-Parents-to-an-Entity-Description">Add Allowable Parents to an Entity Description</a></li>
-<li><a href="Add-Resources-to-an-Entity-Description">Add Resources to an Entity Description</a></li>
+<li><a href="Write-an-Entity-Description.md">Write an Entity Description</a></li>
+<li><a href="Add-Allowable-Parents-to-an-Entity-Description.md">Add Allowable Parents to an Entity Description</a></li>
+<li><a href="Add-Resources-to-an-Entity-Description.md">Add Resources to an Entity Description</a></li>
 </ul>
 
 ## Examples

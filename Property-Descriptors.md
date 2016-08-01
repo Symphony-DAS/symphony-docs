@@ -8,8 +8,8 @@ A `PropertyDescriptor` describes a single property within a protocol or descript
 
 ## Tutorials
 <ul class="list-unstyled">
-<li><a href="Use-Property-Descriptors-in-a-Protocol">Use Property Descriptors in a Protocol</a></li>
-<li><a href="Use-Property-Descriptors-in-a-Description">Use Property Descriptors in a Description</a></li>
+<li><a href="Use-Property-Descriptors-in-a-Protocol.md">Use Property Descriptors in a Protocol</a></li>
+<li><a href="Use-Property-Descriptors-in-a-Description.md">Use Property Descriptors in a Description</a></li>
 </ul>
 
 ## Examples

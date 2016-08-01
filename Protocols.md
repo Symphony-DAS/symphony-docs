@@ -8,15 +8,15 @@ A `Protocol` is an acquisition routine that defines a sequence of experimental t
 
 ## Tutorials
 <ul class="list-unstyled">
-<li><a href="Write-a-Protocol">Write a Protocol</a></li>
-<li><a href="Show-Figure-Handlers-in-a-Protocol">Show Figure Handlers in a Protocol</a></li>
-<li><a href="Set-the-Preview-for-a-Protocol">Set the Preview for a Protocol</a></li>
-<li><a href="Write-a-Figure-Handler">Write a Figure Handler</a></li>
+<li><a href="Write-a-Protocol.md">Write a Protocol</a></li>
+<li><a href="Show-Figure-Handlers-in-a-Protocol.md">Show Figure Handlers in a Protocol</a></li>
+<li><a href="Set-the-Preview-for-a-Protocol.md">Set the Preview for a Protocol</a></li>
+<li><a href="Write-a-Figure-Handler.md">Write a Figure Handler</a></li>
 </ul>
 
 ## Information
 <ul class="list-unstyled">
-<li><a href="Standard-Stimulus-Generators">Standard Stimulus Generators</a></li>
+<li><a href="Standard-Stimulus-Generators.md">Standard Stimulus Generators</a></li>
 </ul>
 
 ## Examples
