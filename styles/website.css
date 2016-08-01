@@ -1,0 +1,13 @@
+/* CSS for website */
+
+.markdown-section a {
+  color: #0072ba;
+}
+
+.book-summary ul.summary li.active > a {
+  color: #0072ba;
+}
+
+#book-search-results .search-results .has-results .search-results-item a {
+  color: #0072ba;
+}
