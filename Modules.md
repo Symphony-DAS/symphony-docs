@@ -1,4 +1,8 @@
-<!-- description: Extend Symphony with custom GUIs -->
+---
+description: Extend Symphony with custom GUIs
+---
+
+# Modules
 
 A `Module` is a small, standalone, user interface that allows you to extend Symphony with custom features. Modules are accessible from the **Modules** menu at the top of the main Symphony window.
 

@@ -1,3 +1,5 @@
+# Write a Rig Description
+
 This tutorial shows how to write a `RigDescription`.
 
 - [Step 1: Create a class](#step-1-create-a-class)

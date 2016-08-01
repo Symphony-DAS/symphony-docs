@@ -1,3 +1,5 @@
+# Add Resources to a Device
+
 You can attach arbitrary data, called resources, to a device. Resources can be used to document information about a device, such as its calibration data or spectrum. Resources can be explicitly defined in a `RigDescription`.
 
 This tutorial shows how to add resources to a device within a `RigDescription`.

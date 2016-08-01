@@ -1,3 +1,5 @@
+# Add Allowable Parents to an Entity Description
+
 You can enforce hierarchical rules for your experiment entities by defining allowable parent types in your source and epoch group descriptions. For instance, if you have "Subject", "Preparation", and "Cell" source descriptions you may not want to allow nesting a "Subject" within a "Cell" or a "Preparation".
 
 This tutorial shows how to add allowable parents to an `EntityDescription`.

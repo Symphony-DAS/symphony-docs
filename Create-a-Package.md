@@ -1,3 +1,5 @@
+# Create a Package
+
 Symphony comes with a number of example protocols, descriptions, modules, etc. but you will likely want to write your own to meet specific needs. While not required, it is highly recommended that you create a MATLAB package to store all of your custom files. From [Mathwork's documentation](http://www.mathworks.com/help/matlab/matlab_oop/scoping-classes-with-packages.html):
 
 > Packages are special folders that can contain class folders, function, and class definition files, and other packages. [...] Using a package provides a means to organize classes and functions. Packages also enable you to reuse the names of classes and functions in different packages.

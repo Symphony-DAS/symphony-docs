@@ -1,3 +1,5 @@
+# Show Figure Handlers in a Protocol
+
 A `FigureHandler` manages a figure displayed by a protocol. It creates the figure controls (typically a plot) and updates the figure as each epoch completes. A `FigureHandler` is generally used to graphically present data and perform online analysis.
 
 This tutorial shows how to show `FigureHandlers` in a protocol.

@@ -1,3 +1,5 @@
+# Architecture
+
 Symphony uses a layered architecture that helps to separate concerns and provides for a more cohesive design. There are three vertical layers that sit on top of the core framework: presentation, application, and domain. Each layer groups a set of cooperating components that specialize on a particular aspect of the program. Components within layers only have dependencies on other components within the same layer or layers below them.
 
 ![architecture](images/architecture/architecture.png)

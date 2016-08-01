@@ -1,3 +1,5 @@
+# App Basics
+
 To launch Symphony click on its icon in the MATLAB Apps tab.
 
 ![launch](images/app-basics/launch.png)

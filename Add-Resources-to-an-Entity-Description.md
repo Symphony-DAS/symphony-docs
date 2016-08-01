@@ -1,3 +1,5 @@
+# Add Resources to an Entity Description
+
 You can attach arbitrary data, called resources, to an entity. Resources can be used to document information about an entity, such as its collecting area or spectrum. Resources can be explicitly defined in an `EntityDescription`.
 
 This tutorial shows how to add resources to an `EntityDescription`.

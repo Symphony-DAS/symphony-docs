@@ -1,3 +1,5 @@
+# Set the Preview for a Protocol
+
 A `Protocol` may choose to show a preview of its stimuli in the **Protocol Preview** pane of the main Symphony window. Previews are useful for users that are unfamiliar with the protocol and how its properties affect its output.
 
 This tutorial shows how to set the preview for a `Protocol`.

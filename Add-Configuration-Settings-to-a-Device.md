@@ -1,3 +1,5 @@
+# Add Configuration Settings to a Device
+
 You can attach arbitrary key/value pairs, called configuration settings, to a device. Configuration settings can be used to document the state of a device during an experiment, such as its gain, mode, NDFs, etc. Configuration settings may be added on-the-fly in the **Devices** window after initializing a rig or explicitly defined in a `RigDescription`.
 
 This tutorial shows how to add configuration settings to a device within a `RigDescription`.

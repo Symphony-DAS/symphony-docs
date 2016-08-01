@@ -1,5 +1,8 @@
-<!-- title: Symphony -->
-<!-- description: Data Acquisition System -->
+---
+description: Data Acquisition System
+---
+
+# Symphony
 
 Symphony is a MATLAB based data acquisition system for electrophysiologists. It provides a framework for writing acquisition routines and a user interface to conduct experiments.
 

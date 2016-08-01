@@ -1,4 +1,8 @@
-<!-- description: Change how properties are displayed and edited -->
+---
+description: Change how properties are displayed and edited
+---
+
+# Property Descriptors
 
 A `PropertyDescriptor` describes a single property within a protocol or description. A `PropertyDescriptor` can be used to restrict a property's type or domain, specify a property's category, set a property to be hidden or read-only, and more.
 

@@ -1,4 +1,8 @@
-<!-- description: Create acquisition routines -->
+---
+description: Create acquisition routines
+---
+
+# Protocols
 
 A `Protocol` is an acquisition routine that defines a sequence of experimental trials, called epochs. Each epoch may present a set of stimuli and record a set of responses from devices in the current rig. A protocol may also define online analysis to perform, typically through the use of `FigureHandlers`.
 

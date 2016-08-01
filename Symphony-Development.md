@@ -1,4 +1,8 @@
-<!-- description: Information for Symphony developers -->
+---
+description: Information for Symphony developers
+---
+
+# Symphony Development
 
 <ul class="list-unstyled">
 <li><a href="Architecture">Architecture</a></li>

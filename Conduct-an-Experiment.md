@@ -1,3 +1,5 @@
+# Conduct an Experiment
+
 You conduct an experiment with Symphony by running a series of protocols and recording the results to file. Each file you create encompasses an entire experiment from start to finish, meaning that at the end of a session with Symphony you are generally left with a single file containing all of your data.
 
 This tutorial shows how to create a file, add sources and epoch groups, and record epochs.

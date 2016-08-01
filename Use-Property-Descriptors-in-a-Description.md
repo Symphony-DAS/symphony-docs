@@ -1,3 +1,5 @@
+# Use Property Descriptors in a Description
+
 This tutorial shows how to use `PropertyDescriptors` within a description.
 
 - [Step 1: Open or create an entity description](#step-1-open-or-create-an-entity-description)

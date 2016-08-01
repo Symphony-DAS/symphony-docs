@@ -1,4 +1,8 @@
-<!-- description: Learn the basics of Symphony -->
+---
+description: Learn the basics of Symphony
+---
+
+# Getting Started
 
 <ul class="list-unstyled">
 <li><a href="Symphony-Product-Description">Symphony Product Description</a></li>

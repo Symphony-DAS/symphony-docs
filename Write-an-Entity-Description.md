@@ -1,3 +1,5 @@
+# Write an Entity Description
+
 This tutorial shows how to write an `EntityDescription`.
 
 - [Step 1: Create a class](#step-1-create-a-class)

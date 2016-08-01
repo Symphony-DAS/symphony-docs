@@ -1,4 +1,8 @@
-<!-- description: Set up connected devices -->
+---
+description: Set up connected devices
+---
+
+# Rig Descriptions
 
 A `RigDescription` describes the devices in an electrophysiology setup. In a typical setup, each amplifier channel, any stimulation or monitoring devices (such as an LED, valve, temperature controller, light meter, etc.) is represented by a distinct device within a `RigDescription`.
 

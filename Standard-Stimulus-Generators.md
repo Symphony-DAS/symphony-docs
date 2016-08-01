@@ -1,3 +1,5 @@
+# Standard Stimulus Generators
+
 Symphony includes a number of built-in `StimulusGenerators`.
 
 - [DirectCurrentGenerator](#directcurrentgenerator)

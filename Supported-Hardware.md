@@ -1,3 +1,5 @@
+# Supported Hardware
+
 - Instrutech ITC-16, ITC-18, and ITC-1600
 - MultiClamp 700A and 700B
 - AxoPatch

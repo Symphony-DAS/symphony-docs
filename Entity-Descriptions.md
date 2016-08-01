@@ -1,4 +1,8 @@
-<!-- description: Define the structure and metadata of experiments -->
+---
+description: Define the structure and metadata of experiments
+---
+
+# Entity Descriptions
 
 An `EntityDescription` describes the metadata of an entity within an experiment. For example, you might want a source to include metadata such as id, sex, age, and weight, and an epoch group to include metadata such as solution additions, recording technique, and series resistance. There are three types of `EntityDescription`: `ExperimentDescription`, `SourceDescription`, and `EpochGroupDescription`.
 

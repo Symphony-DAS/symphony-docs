@@ -1,3 +1,5 @@
+# Use Property Descriptors in a Protocol
+
 Protocols automatically generate a `PropertyDescriptor` for all properties based on [property attributes](http://www.mathworks.com/help/matlab/matlab_oop/property-attributes.html) defined in the protocol's class. For example, a property with a `Constant` attribute generates a descriptor with "isReadOnly" true, while a property with a `Hidden` attribute generates a descriptor with "isHidden" true.
 
 Property attributes may not be sufficient, however, to fully describe a property's type. In that case, you need to explicitly define the type of the `PropertyDescriptor`.

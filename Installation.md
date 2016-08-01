@@ -1,3 +1,5 @@
+# Installation
+
 ### Step 1: Download the installer
 Download the app installer (.mlappinstall) from the [Symphony releases page](https://github.com/Symphony-DAS/symphony-matlab2/releases).
 
