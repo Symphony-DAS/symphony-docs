@@ -15,10 +15,10 @@ A `PropertyDescriptor` describes a single property within a protocol or descript
 ## Examples
 ### Protocols
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bprotocols/PropertyDemo.m">Property Demo</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bprotocols/PropertyDemo.m">Property Demo</a></li>
 </ul>
 
 ### Descriptions
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/PropertyDemo.m">Property Demo</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/PropertyDemo.m">Property Demo</a></li>
 </ul>

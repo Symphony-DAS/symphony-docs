@@ -16,19 +16,19 @@ An `EntityDescription` describes the metadata of an entity within an experiment.
 ## Examples
 ### Experiment Descriptions
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bexperiments/Electrophysiology.m">Electrophysiology</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bexperiments/Electrophysiology.m">Electrophysiology</a></li>
 </ul>
 
 ### Source Descriptions
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Cell.m">Cell</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Preparation.m">Preparation</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Subject.m">Subject</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Cell.m">Cell</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Preparation.m">Preparation</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bsources/Subject.m">Subject</a></li>
 </ul>
 
 ### Epoch Group Descriptions
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Control.m">Control</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Drug.m">Drug</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab2/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Wash.m">Wash</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Control.m">Control</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Drug.m">Drug</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Bepochgroups/Wash.m">Wash</a></li>
 </ul>

@@ -5,11 +5,11 @@ Symphony is an open source project and anyone is welcome to contribute. However,
 ## Instructions
 
 #### One-time Setup
-1. Fork the [symphony-matlab2](https://github.com/Symphony-DAS/symphony-matlab2) repository
+1. Fork the [symphony-matlab](https://github.com/Symphony-DAS/symphony-matlab) repository
 1. Clone your personal fork to your computer:  
-`git clone https://github.com/YOUR_USERNAME/symphony-matlab2.git`
+`git clone https://github.com/YOUR_USERNAME/symphony-matlab.git`
 1. Add a remote repository:  
-`git remote add upstream https://github.com/Symphony-DAS/symphony-matlab2.git`
+`git remote add upstream https://github.com/Symphony-DAS/symphony-matlab.git`
 
 ### General Workflow
 1. Sync your repo:  
