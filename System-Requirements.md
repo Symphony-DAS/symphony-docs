@@ -1,8 +1,8 @@
 # System Requirements
 
 ### General
-- [MATLAB R2016a (x64)](http://www.mathworks.com/products/matlab/)
-- [Windows 7 (x64)](http://windows.microsoft.com/windows-7)
+- [MATLAB R2016a+ (x64)](http://www.mathworks.com/products/matlab/)
+- [Windows 7+ (x64)](http://windows.microsoft.com/windows-7)
 - [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653&ocid=1484856)
 
 ### HEKA Specific
