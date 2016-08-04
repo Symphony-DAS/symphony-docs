@@ -45,7 +45,7 @@ You should now have a package with no content.
 ![structure](images/create-a-package/structure.png)
 
 <table cellspacing="0" class="note" summary="Note" cellpadding="5" border="1"><tbody><tr width="90%"><td>
-<b>Note:</b> If you share a domain name with a number of users, for instance in a lab settings where multiple lab members are using Symphony, you may want to consider adding an additional level in your directory structure to distinguish between users. For example, a user named "Bob" may store all of his files in a package named edu.washington.riekelab.bob.*, while a user named "Jill" may store all of her files in a package named edu.washigton.riekelab.jill.*.
+<b>Note:</b> If you share a domain name with a number of users, for instance in a lab settings where multiple lab members are using Symphony, you may want to consider adding an additional level in your directory structure to distinguish between users. For example, a user named "Bob" may store all of his files in a package named edu.washington.riekelab.bob.*, while a user named "Jill" may store all of her files in a package named edu.washington.riekelab.jill.*.
 </td></tr></tbody></table>
 
 ### Step 2: Add your package to the Symphony path
