@@ -31,5 +31,5 @@ For example, select the "Pulse" protocol and change its "Pre time" and "Tail tim
 If you now press the **View Only** button at the bottom of the window, the "Pulse" protocol will run and show the individual and mean response of presenting 5 rectangular pulse stimuli through the amplifier.
 
 <table cellspacing="0" class="note" summary="Note" cellpadding="5" border="1"><tbody><tr width="90%"><td>
-<b>Note:</b> You will receive an error if you run the protocol with an "Empty" rig because there is no available amplifier to output the pulse. Try using the "Simulated daq with multi clamp" rig instead. You will need the <a href="http://mdc.custhelp.com/app/answers/detail/a_id/18877">MultiClamp Commander</a> software running to initialize the rig but it can run in demo mode if you do not have an attached MultiClamp.
+<b>Note:</b> You will receive an error if you run the protocol with an "Empty" rig because there is no available amplifier to output the pulse. Try using the "Simulated heka daq with multi clamp" or "Simulated ni daq with multi clamp" rig instead. You will need the <a href="http://mdc.custhelp.com/app/answers/detail/a_id/18877">MultiClamp Commander</a> software running to initialize the rig but it can run in demo mode if you do not have an attached MultiClamp.
 </td></tr></tbody></table>
