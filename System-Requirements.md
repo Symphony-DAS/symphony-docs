@@ -7,10 +7,10 @@
 
 ### National Instruments Specific
 - [NI-DAQmx Drivers](http://www.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du,n8:3478.41.181.5495,ssnav:ndr/)  
-Make sure you select "Custom" install during setup and choose to install ".NET Framework 4.5 Languages Support" in addition to the drivers.  
+Make sure you select "Custom" install during the NI-DAQmx setup process and choose to install ".NET Framework 4.5 Languages Support" in addition to the drivers.  
 ![dotnet-lang-support](images/system-requirements/dotnet-lang-support.png)
 
-### InstruTECH ITC Specific
+### HEKA (InstruTECH) Specific
 - [HEKA Drivers](http://www.heka.com/downloads/downloads_main.html#down_acq)
 
 ### MultiClamp Specific

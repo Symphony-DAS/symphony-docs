@@ -15,7 +15,10 @@ A `RigDescription` describes the devices in an electrophysiology setup. In a typ
 
 ## Examples
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/HekaDaqWithAxopatch.m">Heka DAQ with Axopatch</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/HekaDaqWithMultiClamp.m">Heka DAQ with MultiClamp</a></li>
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/SimulatedDaqWithMultiClamp.m">Simulated DAQ with MultiClamp</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/HekaDaqWithAxopatch.m">HEKA ITC-18 DAQ with Axopatch</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/HekaDaqWithMultiClamp.m">HEKA ITC-18 DAQ with MultiClamp</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/NiDaqWithAxopatch.m">National Instruments DAQ with Axopatch</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/NiDaqWithMultiClamp.m">National Instruments DAQ with MultiClamp</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/SimulatedHekaDaqWithMultiClamp.m">Simulated HEKA DAQ with MultiClamp</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/resources/examples/%2Bio/%2Bgithub/%2Bsymphony_das/%2Brigs/SimulatedNiDaqWithMultiClamp.m">Simulated National Instruments DAQ with MultiClamp</a></li>
 </ul>
