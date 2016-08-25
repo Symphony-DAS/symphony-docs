@@ -51,8 +51,8 @@ The releasable app (Symphony.mlappinstall) is now under the target directory.
 1. Attach the Symphony.mlappinstall file
 1. Mark the build as pre-release if the dev stage is alpha, beta, or release candidate
 
-### Update the version number on the Symphony-DAS website
+### Update the Symphony-DAS website
 1. Pull the latest symphony-das.github.io repository changes and ensure everything is up-to-date by running: `git pull; git submodule foreach --recursive "(git checkout master; git pull)"; git status`
 1. Open the \_config.yml file
-1. Replace the "version" property with the new Symphony version number
+1. Replace the "version" property value with the new Symphony version number
 1. Commit and push the change to GitHub

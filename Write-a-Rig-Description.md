@@ -60,10 +60,12 @@ end
 You now have an empty `RigDescription`.
 
 ### Step 2: Set the DAQ controller
-A `DaqController` manages an A/D device such as an ITC-18. Symphony comes with two built-in `DaqController` implementations:
+A `DaqController` manages an A/D device such as an ITC-18. Symphony comes with four built-in `DaqController` implementations:
 
-- `symphonyui.builtin.daqs.HekaDaqController` - Manages a Heka/Instrutech DAQ interface (ITC-16, ITC-18, or ITC-1600).
-- `symphonyui.builtin.daqs.HekaSimulationDaqController` - Manages a simulated Heka/Instrutech DAQ interface (requires no attached hardware).
+- `symphonyui.builtin.daqs.HekaDaqController` - Manages a HEKA (InstruTECH) DAQ interface (ITC-16, ITC-18, or ITC-1600).
+- `symphonyui.builtin.daqs.HekaSimulationDaqController` - Manages a simulated HEKA (InstruTECH) DAQ interface (requires no attached hardware).
+- `symphonyui.builtin.daqs.NiDaqController` - Manages a National Instruments DAQ interface.
+- `symphonyui.builtin.daqs.NiSimulationDaqController` - Manages a simulated National Instruments DAQ interface (requires no attached hardware).
 
 Set the "Demo" description controller by instantiating a `HekaSimulationDaqController` in the constructor method and assigning it to the `daqController` property of the description.
 
