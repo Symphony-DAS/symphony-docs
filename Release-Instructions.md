@@ -26,6 +26,7 @@ Symphony does not currently have an automated release system. These release inst
   - szip.dll
   - zlib.dll
 1. Copy msvcp100.dll and msvcr100.dll from C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\redist\x64\Microsoft.VC100.CRT to symphony-matlab/lib/Core Framework
+1. Copy NationalInstruments.Common.dll and NationalInstruments.DAQmx.dll from C:\Program Files (x86)\National Instruments\MeasurementStudioVS2012\DotNET\Assemblies\Current to symphony-matlab/lib/Core Framework
 
 ### Build the app package
 1. Pull the latest symphony-matlab repository changes and ensure everything is up-to-date by running: `git pull; git submodule foreach --recursive "(git checkout master; git pull)"; git status`
