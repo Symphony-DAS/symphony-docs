@@ -118,7 +118,7 @@ Generates a stimulus from the sum of a set of specified stimuli. All stimuli mus
 
 ### WaveformGenerator
 *symphonyui.builtin.stimuli.WaveformGenerator*  
-Generates an arbitrary waveform stimulus from a specified vector.
+Generates an arbitrary waveform stimulus from a specified vector. WaveformGenerator must store the entire waveform vector with the stimulus in order be able to regenerate it (as opposed to just the parameters used to generate it). Because of this, prefer using other stimulus generators, or writing your own, over using WaveformGenerator to avoid increasing the size of your data files.
 - waveshape - Wave as a vector (units)
 - sampleRate - Sample rate of generated stimulus (Hz)
 - units - Units of generated stimulus

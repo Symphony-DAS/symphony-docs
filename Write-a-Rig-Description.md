@@ -60,10 +60,12 @@ end
 You now have an empty `RigDescription`.
 
 ### Step 2: Set the DAQ controller
-A `DaqController` manages an A/D device such as an ITC-18. Symphony comes with two built-in `DaqController` implementations:
+A `DaqController` manages an A/D device such as an ITC-18. Symphony comes with four built-in `DaqController` implementations:
 
-- `symphonyui.builtin.daqs.HekaDaqController` - Manages a Heka/Instrutech DAQ interface (ITC-16, ITC-18, or ITC-1600).
-- `symphonyui.builtin.daqs.HekaSimulationDaqController` - Manages a simulated Heka/Instrutech DAQ interface (requires no attached hardware).
+- `symphonyui.builtin.daqs.HekaDaqController` - Manages a HEKA (InstruTECH) DAQ interface (ITC-16, ITC-18, or ITC-1600).
+- `symphonyui.builtin.daqs.HekaSimulationDaqController` - Manages a simulated HEKA (InstruTECH) DAQ interface (requires no attached hardware).
+- `symphonyui.builtin.daqs.NiDaqController` - Manages a National Instruments DAQ interface.
+- `symphonyui.builtin.daqs.NiSimulationDaqController` - Manages a simulated National Instruments DAQ interface (requires no attached hardware).
 
 Set the "Demo" description controller by instantiating a `HekaSimulationDaqController` in the constructor method and assigning it to the `daqController` property of the description.
 
@@ -100,7 +102,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 end
@@ -116,7 +118,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -141,7 +143,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -164,7 +166,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -190,7 +192,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
     obj.addDevice(amp);
 
@@ -214,7 +216,7 @@ classdef Demo < symphonyui.core.descriptions.RigDescription
             daq = HekaSimulationDaqController();
             obj.daqController = daq;
 
-            % Add a MultiClamp device with name = Amp, channel = 1
+            % Add a MultiClamp 700B device with name = Amp, channel = 1
             amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
             obj.addDevice(amp);
 
