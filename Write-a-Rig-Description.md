@@ -102,7 +102,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 end
@@ -118,7 +118,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -143,7 +143,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -166,7 +166,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1);
     obj.addDevice(amp);
 
@@ -192,7 +192,7 @@ function obj = Demo()
     daq = HekaSimulationDaqController();
     obj.daqController = daq;
 
-    % Add a MultiClamp device with name = Amp, channel = 1
+    % Add a MultiClamp 700B device with name = Amp, channel = 1
     amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
     obj.addDevice(amp);
 
@@ -216,7 +216,7 @@ classdef Demo < symphonyui.core.descriptions.RigDescription
             daq = HekaSimulationDaqController();
             obj.daqController = daq;
 
-            % Add a MultiClamp device with name = Amp, channel = 1
+            % Add a MultiClamp 700B device with name = Amp, channel = 1
             amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
             obj.addDevice(amp);
 

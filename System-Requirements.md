@@ -7,11 +7,12 @@
 
 ### National Instruments Specific
 - [NI-DAQmx Drivers](http://www.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du,n8:3478.41.181.5495,ssnav:ndr/)  
-Make sure you select "Custom" install during the NI-DAQmx setup process and choose to install ".NET Framework 4.5 Languages Support" in addition to the drivers.  
-![dotnet-lang-support](images/system-requirements/dotnet-lang-support.png)
 
 ### HEKA (InstruTECH) Specific
 - [HEKA Drivers](http://www.heka.com/downloads/downloads_main.html#down_acq)
 
-### MultiClamp Specific
-- [MultiClamp Commander](http://mdc.custhelp.com/app/answers/detail/a_id/18877)
+### MultiClamp 700A Specific
+- [MultiClamp 700A Commander](http://mdc.custhelp.com/app/answers/detail/a_id/20058/~/axon%E2%84%A2-multiclamp%E2%84%A2-700a-commander-download-page)
+
+### MultiClamp 700B Specific
+- [MultiClamp 700B Commander](http://mdc.custhelp.com/app/answers/detail/a_id/20059)
