@@ -9,7 +9,7 @@ Symphony does not currently have an automated release system. These release inst
 1. Open the Developer Command Prompt for VS2012
 1. Change directory to the root symphony-core source directory containing the Build.proj file (i.e. src\symphony-core)
 1. Clean and build the project by running (*replace SYMPHONY_VERSION with the next release version number*):
-  `msbuild Build.proj /t:Clean,Build /p:Configuration=Release /p:Platform=x64 /p:SYMPHONY_VERSION=2.0.2.1`
+  `msbuild Build.proj /t:Go /p:Configuration=Release /p:Platform=x64 /p:SYMPHONY_VERSION=2.0.2.1`
 1. Copy the necessary assemblies from bin/x64/Release to symphony-matlab/lib/Core Framework:
   - HDF5.dll
   - hdf5_hldll.dll
