@@ -70,7 +70,7 @@ Resources can be accessed within protocols by using the `getResource()` method.
 
 ```matlab
 experiment = obj.persistor.experiment;
-sources = experiment.sources;
+sources = experiment.getSources();
 demoSource = sources{1};
 spectrum = demoSource.getResource('spectrum');
 collectingArea = demoSource.getResource('collectingArea');
