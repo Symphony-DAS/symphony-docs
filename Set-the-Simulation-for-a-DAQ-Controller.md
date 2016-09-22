@@ -68,3 +68,5 @@ end
 <table cellspacing="0" class="note" summary="Note" cellpadding="5" border="1"><tbody><tr width="90%"><td>
 <b>Note:</b> For this to work, you must have completed the "Write a Simulation" tutorial so that the "demo" simulation exists and replace the `edu.washington.riekelab` prefix with your own package prefix.
 </td></tr></tbody></table>
+
+You now have a rig description with a DAQ controller using the "demo" `Simulation`.
