@@ -16,6 +16,8 @@
   - [Set the Preview for a Protocol](Set-the-Preview-for-a-Protocol.md)
   - [Write a Figure Handler](Write-a-Figure-Handler.md)
   - [Standard Stimulus Generators](Standard-Stimulus-Generators.md)
+- [Simulations](Simulations.md)
+  - [Write a Simulation](Write-a-Simulation.md)
 - [Entity Descriptions](Entity-Descriptions.md)
   - [Write an Entity Description](Write-an-Entity-Description.md)
   - [Add Allowable Parents to an Entity Description](Add-Allowable-Parents-to-an-Entity-Description.md)
