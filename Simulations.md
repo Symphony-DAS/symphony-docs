@@ -4,6 +4,7 @@ description: Create simulations to test protocols and models
 
 # Simulations
 A `Simulation` is an algorithm that simulates data acquired by data acquisition hardware. The purpose of simulations is twofold:
+
 1. Allows testing protocol and stimulus generation code independent of hardware.
 2. Allows the use of Symphony for computational simulation in addition to direct data acquisition. In this mode, the same application shell, protocol and stimulus generation code can be used for both physiology and simulation experiments, with the resulting output in the common Symphony data format.
 
