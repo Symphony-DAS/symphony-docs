@@ -40,9 +40,9 @@ end
 ```
 
 ### Step 2: Set the simulation for the controller
-You set the simulation for a simulation controller by setting its "simulationRunner" property to a [function handle](https://www.mathworks.com/help/matlab/matlab_prog/creating-a-function-handle.html) of a simulation function.
+You set the simulation for a simulation controller by setting its "simulation" property to a desired `Simulation`.
 
-Add an additional line after instantiating the simulation controller (i.e. `daq = HekaSimulationDaqController`) and set its "simulationRunner" property to a function handle of the ["demo" simulation function](Write-a-Simulation.md).
+Add an additional line after instantiating the simulation controller (i.e. `daq = HekaSimulationDaqController`) and set its "simulation" property to an instance of the ["Demo" simulation](Write-a-Simulation.md).
 
 ```matlab
 classdef Demo < symphonyui.core.descriptions.RigDescription
@@ -54,7 +54,7 @@ classdef Demo < symphonyui.core.descriptions.RigDescription
             import symphonyui.builtin.devices.*;
 
             daq = HekaSimulationDaqController();
-            daq.simulationRunner = @edu.washington.riekelab.simulations.demo;
+            daq.simulation = edu.washington.riekelab.simulations.Demo();
             obj.daqController = daq;
 
             ...
@@ -66,7 +66,7 @@ end
 ```
 
 <table cellspacing="0" class="note" summary="Note" cellpadding="5" border="1"><tbody><tr width="90%"><td>
-<b>Note:</b> For this to work, you must have completed the "Write a Simulation" tutorial so that the "demo" simulation exists and replace the `edu.washington.riekelab` prefix with your own package prefix.
+<b>Note:</b> For this to work, you must have completed the "Write a Simulation" tutorial so that the "Demo" simulation exists and replace the `edu.washington.riekelab` prefix with your own package prefix.
 </td></tr></tbody></table>
 
-You now have a rig description with a DAQ controller using the "demo" `Simulation`.
+You now have a rig description with a DAQ controller using the "Demo" `Simulation`.

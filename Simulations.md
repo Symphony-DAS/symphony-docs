@@ -16,5 +16,5 @@ A `Simulation` is an algorithm that simulates data acquired by data acquisition 
 
 ## Examples
 <ul class="list-unstyled">
-<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/matlab/%2Bsymphonyui/%2Bbuiltin/%2Bstimulations/loopback.m">Loopback</a></li>
+<li><a href="https://github.com/Symphony-DAS/symphony-matlab/blob/master/src/main/matlab/%2Bsymphonyui/%2Bbuiltin/%2Bsimulations/Loopback.m">Loopback</a></li>
 </ul>
