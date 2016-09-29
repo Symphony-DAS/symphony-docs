@@ -328,4 +328,4 @@ classdef Demo < symphonyui.core.Simulation
 end
 ```
 
-To use a `Simulation`, refer to the ["Set the Simulation for a DAQ Controller" tutorial](Set-a-Simulation-for-a-DAQ-Controller.md).
+To use a `Simulation`, refer to the ["Set the Simulation for a DAQ Controller" tutorial](Set-the-Simulation-for-a-DAQ-Controller.md).
