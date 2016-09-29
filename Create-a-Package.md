@@ -37,6 +37,7 @@ mypackage/                      % Directory containing your package
 |   |   |   |-- +modules        % Contains your custom Modules
 |   |   |   |-- +protocols      % Contains your custom Protocols
 |   |   |   |-- +rigs           % Contains your custom RigDescriptions
+|   |   |   |-- +simulations    % Contains your custom Simulations
 |   |   |   |-- +sources        % Contains your custom SourceDescriptions
 ```
 

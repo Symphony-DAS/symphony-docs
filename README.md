@@ -15,6 +15,9 @@ Set up connected devices
 ### [Protocols](Protocols.md)  
 Create acquisition routines
 
+### [Simulations](Simulations.md)
+Create simulations to test protocols and models
+
 ### [Entity Descriptions](Entity-Descriptions.md)  
 Define the structure and metadata of experiments
 

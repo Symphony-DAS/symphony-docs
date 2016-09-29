@@ -23,11 +23,11 @@ classdef Demo < symphonyui.core.descriptions.RigDescription
             obj.daqController = daq;
 
             % Add a MultiClamp 700B device with name = Amp, channel = 1
-            amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
+            amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ao0')).bindStream(daq.getStream('ai0'));
             obj.addDevice(amp);
 
             % Add a LED device with name = Green LED, units = volts
-            green = UnitConvertingDevice('Green LED', 'V').bindStream(daq.getStream('ANALOG_OUT.1'));
+            green = UnitConvertingDevice('Green LED', 'V').bindStream(daq.getStream('ao1'));
             obj.addDevice(green);
         end
 
@@ -68,11 +68,11 @@ classdef Demo < symphonyui.core.descriptions.RigDescription
             obj.daqController = daq;
 
             % Add a MultiClamp 700B device with name = Amp, channel = 1
-            amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ANALOG_OUT.0')).bindStream(daq.getStream('ANALOG_IN.0'));
+            amp = MultiClampDevice('Amp', 1).bindStream(daq.getStream('ao0')).bindStream(daq.getStream('ai0'));
             obj.addDevice(amp);
 
             % Add a LED device with name = Green LED, units = volts
-            green = UnitConvertingDevice('Green LED', 'V').bindStream(daq.getStream('ANALOG_OUT.1'));
+            green = UnitConvertingDevice('Green LED', 'V').bindStream(daq.getStream('ao1'));
             table = [ ...
                 321, 0.00;
                 513, 0.72;
